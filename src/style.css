@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+   width: 90vw;
+   height: 80vh;
+   display: flex;
+   flex-direction: column;
+   background-color: #203b42;
+   color: white;
+   padding: 10px;
+   border-radius: 15px;
+}
+
+.searchBox{
+   background: lch(100% 0.01 296.81);
+   padding: 10px;
+   margin-top: 15px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#searchInput{
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: none; 
+    background: transparent;
+    width: 100%;
+}
+
+.wrapper{
+    height: 70vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.profilePic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.notification{
+    background: #2e474a;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.message{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.message p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 375px) {
+    .message{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 70vw;
+    }
+
+    .message{
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container{
+        width: 60vw;
+    }
+
+    .message{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container{
+        width: 50vw;
+    }
+}

@@ -6,7 +6,7 @@ let userData = [
     {
         id: 1,
         userprofile: "https://images.unsplash.com/photo-1634149134165-6d679d80a800?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        username: "Jessica Koel",
+        username: "Jessy Koel",
         message: "Hey, Joel! I'm here to help you out. Please let me know if you need anything.",
         time: "07:05 PM"
     },
@@ -30,7 +30,7 @@ let userData = [
     {
         id: 4,
         userprofile: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        username: "Johnson",
+        username: "Johnson Micel",
         message: "Let's schedule a meeting to discuss the project update.",
         time: "09:20 AM"
     },
@@ -38,7 +38,7 @@ let userData = [
     {
         id: 5,
         userprofile: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        username: "Nixen",
+        username: "Azlan Forster",
         message: "I'm available to meet tomorrow at 10 AM. Please confirm.",
         time: "11:35 AM"
     },
@@ -54,7 +54,7 @@ let userData = [
     {
         id: 7,
         userprofile: "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?q=80&w=1536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        username: "Peter parker",
+        username: "Peter Parker",
         message: "Let's schedule a meeting to discuss the project update.",
         time: "12:00 PM"
     },
@@ -62,7 +62,7 @@ let userData = [
     {
         id: 8,
         userprofile: "https://images.unsplash.com/photo-1579105728744-9d6b14a45389?q=80&w=1883&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        username: "Koyal", 
+        username: "Koyal Joe", 
         message: "I've attached the latest report. Please take a look and let me know if you have any questions.",
         time: "05:15 PM"
     },
@@ -70,7 +70,7 @@ let userData = [
     {
         id: 9,
         userprofile: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        username: "Nielson",
+        username: "Nielson Ductur",
         message: "I suggest we start a new business soon. Let's brainstorm some ideas.",
         time: "11:45 AM"
     },
